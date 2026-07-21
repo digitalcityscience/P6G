@@ -1,0 +1,14 @@
+# Python/pip side only (step 2/3, and the "verify" section of the step 1
+# notebooks). Step 1's Blender-side code runs inside Blender's own Python
+# interpreter and isn't pip-installable. See the root README's Setup
+# section for the Blender/add-on versions instead.
+#
+# sionna-rt pulls in a compatible mitsuba/drjit automatically; don't pin
+# those separately unless you have a specific reason to.
+#
+# TODO: this floor (2.0.1, the version the official Sionna RT tutorial
+# targets: https://nvlabs.github.io/sionna/rt/tutorials/Introduction.html)
+# is a starting point, not a verified pin. Once you have an environment that
+# works end-to-end, replace this with the exact output of:
+#   pip freeze | grep -E "sionna|mitsuba|drjit"
+sionna-rt>=2.0.1
