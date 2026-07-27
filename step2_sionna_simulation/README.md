@@ -10,3 +10,9 @@ configuration. Parameter sweeps (positions, counts, materials) aren't
 implemented yet - see the notebook's closing note.
 
 Don't commit every raw sweep output here - see the root README for why.
+
+Naming of the files: 
+
+260727_hh_gml_lod3_modify_the_colour
+
+"the date (yymmdd)"_"city(hh for hamburg)"_"file type(gml or ifc or fbx)"_"level of detail (if applicable)"_"what has changed, what is the update in this file".ipynb
